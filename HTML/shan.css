@@ -1,0 +1,35 @@
+.navClass {
+    background-color: lightblue;
+    border-radius: 2vh;
+    
+}
+.navClass ul {
+    overflow: auto;
+}
+.navClass ul li {
+    float: left;
+    list-style: none; 
+    padding: 2vh;
+}
+.navClass ul li a{
+    text-decoration: none;
+    color: blck;
+}
+.navClass ul li a:hover{
+    background-color: purple;
+    color: bisque;
+    border-radius: 2vh;
+    
+}
+.search{
+    float: right;
+    display: inline;
+}
+.search-box{
+    padding: 1vh;
+    position: absolute;
+    right: 4vh;
+    border: none;
+    border-radius: 2vh;
+    top: 3.5vh;
+}
