@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="formss.js"></script>
+</head>
+
+<body>
+    <form name="formName" onsubmit="return submitForm()">
+        <div>
+            <label for="nameId">Name</label>
+            <span style="color:red">*</span>
+            <span>:</span>
+            <input type="text" id="nameID" name="nameName" placeholder="Enter name" required>
+            <span id="nameIdError"></span>
+            <br><br>
+            <label for="numberId">Number</label>
+            <span style="color:red">*</span>
+            <span>:</span>
+            <input type="number" id="numberId" name="numberNumber" placeholder="Enter number" required>
+            <span id="numberIdError"></span>
+            <br>
+            <br>
+            <!-- <label for="mailId">Mail</label>
+            <span style="color:red">*</span>
+            <span>:</span>
+            <input type="email" id="mailId" name="mailMail" placeholder="Enter mail" required>
+            <br><br>
+            <label for="ageId">Age</label>
+            <span style="color:red">*</span>
+            <span>:</span>
+            <input type="number" id="ageId" name="ageAge" placeholder="Enter age" required>
+            <br><br>
+            <label for="cityId">City</label>
+            <span style="color:red">*</span>
+            <span>:</span>
+            <input type="text" id="cityId" name="cityCity" placeholder="Enter city" required> -->
+        </div>
+        <br>
+        <div>
+            <button type="submit" value="submit">Submit</button>
+            <button type="reset" value="Clear">Clear</button>
+        </div>
+    </form>
+</body>
+</html>
